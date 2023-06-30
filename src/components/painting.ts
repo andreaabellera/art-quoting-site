@@ -2,7 +2,7 @@ import { Component, Input } from "@angular/core"
 
 @Component({
     selector: "painting",
-    template: `<img src={{src}} alt={{title}}>`
+    template: `<img src={{src}} alt={{title}} height="30%" width="30%">`
 })
 export class Painting {
     @Input() title: string = "Untitled Painting"
