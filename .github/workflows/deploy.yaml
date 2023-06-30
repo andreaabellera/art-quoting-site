@@ -2,8 +2,8 @@
 name: Deploy Angular app to Github Pages
 
 on:
-  workflow_dispatch:  # Allows this workflow to be ran manually from the Actions tab
-  push: # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the default branch
+  push:
     branches: ['main']
 
   # Allows you to run this workflow manually from the Actions tab
