@@ -12,8 +12,8 @@ function renderChunks(deps) {
 
 export default defineConfig({
     plugins: [splitVendorChunkPlugin()],
+    base: "/art-quoting-site/",
     build: {
-        base: "/art-quoting-site/",
         sourcemap: false,
         rollupOptions: {
           output: {
