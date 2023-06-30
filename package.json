@@ -1,0 +1,30 @@
+{
+  "name": "vite-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "@angular/common": "^15.1.2",
+    "@angular/compiler": "^15.1.2",
+    "@angular/core": "^15.1.2",
+    "@angular/platform-browser": "^15.1.2",
+    "@angular/platform-browser-dynamic": "^15.1.2",
+    "casually-button": "^0.0.8",
+    "casually-components": "^0.0.46",
+    "rxjs": "^7.5.7",
+    "zone.js": "^0.12.0"
+  }
+}
